@@ -36,6 +36,7 @@
             androidSdk
             jdk11
             pkg-config
+            gtk3
           ];
 
           shellHook = "fish";
