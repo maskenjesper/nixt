@@ -15,6 +15,10 @@
         path = ./flakes/wireguard;
         description = "wireguard";
       };
+      lua = {
+        path = ./flakes/lua;
+        description = "Just the lua language";
+      };
     };
   };
 }
