@@ -48,7 +48,6 @@
             gst_all_1.gst-plugins-good
           ];
 
-          shellHook = "fish";
         };
 
       };
