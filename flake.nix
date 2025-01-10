@@ -19,6 +19,10 @@
         path = ./flakes/lua;
         description = "Just the lua language";
       };
+      elixir = {
+        path = ./flakes/elixir;
+        description = "just elixir";
+      };
     };
   };
 }
