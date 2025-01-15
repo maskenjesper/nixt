@@ -7,6 +7,10 @@
         path = ./flakes/flutter;
         description = "Standard flutter flake";
       };
+      dart = {
+        path = ./flakes/dart;
+        description = "Just dart";
+      };
       nodejs = {
         path = ./flakes/nodejs;
         description = "Standard nodejs";
