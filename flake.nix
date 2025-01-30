@@ -27,6 +27,10 @@
         path = ./flakes/elixir;
         description = "just elixir";
       };
+      phoenix = {
+        path = ./flakes/phoenix;
+        description = "phoenix framework";
+      };
     };
   };
 }
