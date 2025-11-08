@@ -31,6 +31,10 @@
         path = ./flakes/phoenix;
         description = "phoenix framework";
       };
+      cpp = {
+        path = ./flakes/cpp;
+        description = "cpp";
+      };
     };
   };
 }
