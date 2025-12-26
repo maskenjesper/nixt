@@ -20,9 +20,11 @@
     in {
       devShells = with pkgs; {
         default = mkShell {
+          CMAKE_GENERATOR = "Ninja Multi-Config";
           buildInputs = [
             gcc
             cmake
+            ninja
           ];
         };
       };
