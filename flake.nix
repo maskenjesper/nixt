@@ -35,6 +35,10 @@
         path = ./flakes/cpp;
         description = "cpp";
       };
+      python = {
+        path = ./flakes/python;
+        description = "python";
+      };
     };
   };
 }
